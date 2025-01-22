@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <nav>
+        <a href="{{ url_for('index') }}">Home</a>
+        <a href="{{ url_for('about') }}">About</a>
+        <a href="{{ url_for('contact') }}">Contact</a>
+    </nav>
+    <div class="container">
+        <h1>About Us</h1>
+        <div class="content-section">
+            <h2>Our Story</h2>
+            <p>Welcome to our creative space! We are passionate about delivering exceptional digital experiences.</p>
+            
+            <h2>Our Mission</h2>
+            <p>We strive to create innovative solutions that make a difference in the digital world.</p>
+            
+            <h2>Our Team</h2>
+            <p>Meet our talented team of professionals dedicated to bringing your vision to life.</p>
+        </div>
+    </div>
+</body>
+</html>

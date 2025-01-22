@@ -1,0 +1,100 @@
+/* Modern Bootstrap-enhanced styles - Dark Mode */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #1a1a1a 0%, #2d3436 100%);
+    min-height: 100vh;
+    color: #ffffff;
+}
+
+.container {
+    padding: 2rem;
+    max-width: 1200px;
+}
+
+header {
+    background: linear-gradient(90deg, #2c3e50 0%, #1a1a1a 100%);
+    color: white;
+    padding: 2rem 0;
+    margin-bottom: 3rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.main-content {
+    background: #2d3436;
+    border-radius: 1rem;
+    padding: 2.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+}
+
+.main-content:hover {
+    transform: translateY(-5px);
+}
+
+.btn-custom {
+    padding: 0.8rem 2rem;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, #2c3e50 0%, #1a1a1a 100%);
+    border: none;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(45deg, #1a1a1a 0%, #2c3e50 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+}
+
+.form-control {
+    border-radius: 0.5rem;
+    padding: 0.8rem;
+    border: 2px solid #404040;
+    background-color: #2d3436;
+    color: #ffffff;
+}
+
+.form-control:focus {
+    border-color: #2c3e50;
+    box-shadow: 0 0 0 0.2rem rgba(44,62,80,.25);
+    background-color: #2d3436;
+}
+
+.card {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.3s ease;
+    background-color: #2d3436;
+    color: #ffffff;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.3);
+}
+
+.nav-links {
+    background: #2d3436;
+    border-radius: 2rem;
+    padding: 1rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.2);
+}
+
+.nav-links a {
+    color: #ffffff;
+    font-weight: 500;
+    padding: 0.5rem 1.5rem;
+    border-radius: 2rem;
+    transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+    background: #2c3e50;
+    color: white;
+    text-decoration: none;
+}
